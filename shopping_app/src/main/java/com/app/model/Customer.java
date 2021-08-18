@@ -58,12 +58,21 @@ public String toString() {
 			+ ", emailId=" + emailId + "]";
 }
 
+public String formatView() {
+	return "Customer [id=" + id + ", firstName=" + firstName + ", lastName=" + lastName + ", emailId=" + emailId + "]";
+}
+
 public Customer(String firstName, String lastName, String emailId, String password) {
 	super();
 	this.firstName = firstName;
 	this.lastName = lastName;
 	this.password = password;
 	this.emailId = emailId;
+}
+
+public Customer() {
+	
+	// TODO Auto-generated constructor stub
 }
 
 

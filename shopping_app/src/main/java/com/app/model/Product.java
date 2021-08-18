@@ -39,6 +39,14 @@ public class Product {
 		this.price = price;
 		this.brandName = brandName;
 	}
+	
+	public Product(int id, String name, double price, String brandName) {
+		super();
+		this.id = id;
+		this.name = name;
+		this.price = price;
+		this.brandName = brandName;
+	}
 	@Override
 	public String toString() {
 		return "Product [id=" + id + ", name=" + name + ", price=" + price + ", brandName=" + brandName + "]";

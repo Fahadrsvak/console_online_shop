@@ -9,4 +9,5 @@ public interface ProductViewDAO {
 	
 	public List<Product> productView() throws BusinessException;
 
+
 }
