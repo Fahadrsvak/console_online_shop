@@ -19,7 +19,7 @@ public class MySqlDbConnection {
 		String username = "root";
 		String password = "Fahad@1999";
 		connection = DriverManager.getConnection(url, username, password);
-		System.out.println("connected");
+		System.out.println("\n");
 		return connection;
 
 	}

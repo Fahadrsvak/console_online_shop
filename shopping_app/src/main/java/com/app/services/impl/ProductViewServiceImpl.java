@@ -11,10 +11,14 @@ import com.app.services.ProductViewService;
 public class ProductViewServiceImpl implements ProductViewService {
 
 	private ProductViewDAO productViewDAO =new ProductViewDAOImpl();
+	List<Product> productList=null;
 	@Override
 	public List<Product> productView() throws BusinessException {
 		// TODO Auto-generated method stub
-		return productViewDAO.productView();
+		productList=productViewDAO.productView();
+		
+			return productList;
+		
 	}
 	
 	@Override

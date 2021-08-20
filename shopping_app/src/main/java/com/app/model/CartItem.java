@@ -5,7 +5,7 @@ public class CartItem {
 	private Customer customer;
 	private Product product;
 	private int quantity;
-	private int lineTotal;
+	private double lineTotal;
 	public int getId() {
 		return id;
 	}
@@ -23,6 +23,10 @@ public class CartItem {
 		this.customer = customer;
 		this.product = product;
 		this.quantity = quantity;
+		this.lineTotal=(product.getPrice()*quantity);
+	}
+	public CartItem() {
+		// TODO Auto-generated constructor stub
 	}
 	public Product getProduct() {
 		return product;
@@ -36,11 +40,16 @@ public class CartItem {
 	public void setQuantity(int quantity) {
 		this.quantity = quantity;
 	}
-	public int getLineTotal() {
+	public double getLineTotal() {
 		return lineTotal;
 	}
-	public void setLineTotal(int lineTotal) {
-		this.lineTotal = lineTotal;
+	public void setLineTotal(double d) {
+		this.lineTotal = d;
+	}
+	@Override
+	public String toString() {
+		return "CartItem [id=" + id + ", customer=" + customer + ", product=" + product + ", quantity=" + quantity
+				+ ", lineTotal=" + lineTotal + "]";
 	}
 	
 	

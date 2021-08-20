@@ -1,10 +1,14 @@
 package com.app.services.impl;
 
 
+import java.util.ArrayList;
+import java.util.List;
+
 import com.app.dao.CartItemDAO;
 import com.app.dao.impl.CartItemDAOImpl;
 import com.app.exception.BusinessException;
 import com.app.model.CartItem;
+import com.app.model.Customer;
 import com.app.services.CartItemService;
 
 public class CartItemServiceImpl implements CartItemService{
@@ -12,8 +16,26 @@ public class CartItemServiceImpl implements CartItemService{
 
 	@Override
 	public CartItem addItem(CartItem cartItem) throws BusinessException {
-		// TODO Auto-generated method stub
-		return null;
+		
+		cartItem= cartItemDAO.addItem(cartItem);
+		if(!(cartItem.getId()>0)) {
+			throw new BusinessException("Failed to add product to cart");
+		}
+		else {
+		
+		return cartItem;
+		}
+	}
+
+	@Override
+	public List<CartItem> getAllCartItem(Customer customer) throws BusinessException {
+		List<CartItem> cartList = new ArrayList<>();
+		cartList=cartItemDAO.getAllCartItem(customer);
+		
+			return cartList;
+		
+	
+		
 	}
 
 	

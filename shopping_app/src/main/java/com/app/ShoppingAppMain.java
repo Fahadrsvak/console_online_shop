@@ -10,12 +10,14 @@ import com.app.exception.BusinessException;
 import com.app.model.CartItem;
 import com.app.model.Customer;
 import com.app.model.Employee;
+import com.app.model.Order;
 import com.app.model.Product;
 import com.app.services.CartItemService;
 import com.app.services.CustomerCreateService;
 import com.app.services.CustomerLoginService;
 import com.app.services.CustomerViewAllService;
 import com.app.services.EmployeeLoginService;
+import com.app.services.OrderService;
 import com.app.services.ProductAddService;
 import com.app.services.ProductDeleteService;
 import com.app.services.ProductUpdateService;
@@ -25,6 +27,7 @@ import com.app.services.impl.CustomerCreateServiceImpl;
 import com.app.services.impl.CustomerLoginServiceImpl;
 import com.app.services.impl.CustomerViewAllServiceImpl;
 import com.app.services.impl.EmployeeLoginServiceImpl;
+import com.app.services.impl.OrderServiceImpl;
 import com.app.services.impl.ProductAddServiceImpli;
 import com.app.services.impl.ProductDeleteServiceImpl;
 import com.app.services.impl.ProductUpdateServiceImpl;
@@ -42,7 +45,7 @@ public class ShoppingAppMain {
 		log.info("\n*******************************************");
 		log.info("\n  ----------  ONLINE SHOPPY  -----------");
 		log.info("\n*******************************************");
-		log.info("\n Welcome to Online shoppy!");
+		log.info("\n     Welcome to Online shoppy!\n");
 		
 		log.info("1)Login as an employee");
 		log.info("2)Login as an customer");
@@ -59,7 +62,8 @@ public class ShoppingAppMain {
 			Employee employee = null ;
 			do {
 				EmployeeLoginService employeeloginService =new EmployeeLoginServiceImpl();
-				log.info("          Employee login");
+				log.info("          Employee login\n"
+						+ "        ------------------\n");
 				String email;
 				String pass;
 				try {
@@ -85,16 +89,18 @@ public class ShoppingAppMain {
 				}
 				int employeeChoice=0;
 				do {
-					log.info("Welcome to ONLINE SHOP "+employee.getEmailId());
+					log.info("\n----Welcome to ONLINE SHOPPY "+employee.getEmailId()+"----\n"
+							+ "       ----------------------------------\n");
 					
 					log.info("1)add product");
 					log.info("2)Update product details");
 					log.info("3)Delete product");
 					log.info("4)View all products");
 					log.info("5)View all customers");
-					log.info("6)log out");
-					log.info("7)goto ONLINE SHOP Home ");
-					log.info("\nPlease enter your choice(1-3)");
+					log.info("6)View all orders");
+					log.info("7)log out");
+					log.info("8)goto ONLINE SHOP Home ");
+					log.info("\nPlease enter your choice(1-8)");
 					try {
 						employeeChoice=Integer.parseInt(scanner.nextLine());
 					} catch (NumberFormatException e) {
@@ -104,7 +110,8 @@ public class ShoppingAppMain {
 					switch(employeeChoice) {
 						case 1:
 							ProductAddService productAddService = new ProductAddServiceImpli();
-
+							log.info("\n       Add new product\n"
+									+ "      ------------------\n");
 							String name;
 							double price;
 							String brandName;
@@ -134,11 +141,14 @@ public class ShoppingAppMain {
 							try {
 								productList=productViewService.productView();
 								if(productList!=null && productList.size()>0) {
-									log.info("Total there are "+productList.size()+" number of products \nprinting the products");
-									for(Product product:productList) {
-										log.info(product);
-										
-									}
+									log.info("---there are "+productList.size()+" different product available--- \n"
+											+ "      ------printing the products-----\n"
+											+ "      --------------------------------\n");
+									
+									log.info(" id      Products             price ");
+									log.info("---------------------------------");
+									productList.stream().forEach(x -> System.out.printf("%-5d%-6s %-12s %-9.1f  \n\n", x.getId(),
+											x.getBrandName(),x.getName(),x.getPrice()) );
 								}
 							} catch (BusinessException e) {
 								log.warn(e.getMessage());
@@ -171,11 +181,14 @@ public class ShoppingAppMain {
 							try {
 								productList=productViewService.productView();
 								if(productList!=null && productList.size()>0) {
-									log.info("Total there are "+productList.size()+" number of products \nprinting the products");
-									for(Product product:productList) {
-										log.info(product);
-										
-									}
+									log.info("---there are "+productList.size()+" different product available--- \n"
+											+ "      ------printing the products-----\n"
+											+ "      --------------------------------\n");
+									
+									log.info(" id      Products             price ");
+									log.info("---------------------------------");
+									productList.stream().forEach(x -> System.out.printf("%-5d%-6s %-12s %-9.1f  \n\n", x.getId(),
+											x.getBrandName(),x.getName(),x.getPrice()) );
 								}
 							} catch (BusinessException e) {
 								log.warn(e.getMessage());
@@ -202,11 +215,15 @@ public class ShoppingAppMain {
 							try {
 								productList=productViewService.productView();
 								if(productList!=null && productList.size()>0) {
-									log.info("Total there are "+productList.size()+" number of products \nprinting the products");
-									for(Product product:productList) {
-										log.info(product);
-										
-									}
+									log.info("---there are "+productList.size()+" different product available--- \n"
+											+ "      ------printing the products-----\n"
+											+ "      --------------------------------\n");
+									
+									log.info(" id      Products             price ");
+									log.info("---------------------------------");
+									productList.stream().forEach(x -> System.out.printf("%-5d%-6s %-12s %-9.1f  \n\n", x.getId(),
+											x.getBrandName(),x.getName(),x.getPrice()) );
+									log.info("\n");
 								}
 							} catch (BusinessException e) {
 								log.warn(e.getMessage());
@@ -227,20 +244,114 @@ public class ShoppingAppMain {
 							} catch (BusinessException e) {
 								log.warn(e.getMessage());
 							}
+							int searchChoice=0;
+							do {
+								log.info("1)Search customers using emailId");
+								log.info("2)Search customers using id");
+								log.info("3)Search customers using name");
+								log.info("4)Search customers using orderId");
+								log.info("5)Go Back");
+								searchChoice=Integer.parseInt(scanner.nextLine());
+								Customer customer =new Customer();
+								switch(searchChoice) {
+								
+								case 1:
+									log.info("enter the email id of customer");
+									String tEmail=scanner.nextLine();
+									try {
+										customer =customerViewAllService.searchCustomerByEmail(tEmail);
+									} catch (BusinessException e) {
+										log.warn(e.getMessage());
+									}
+									log.info(customer);
+								break;
+								case 2:
+									log.info("enter the customer id");
+									int id=Integer.parseInt(scanner.nextLine());
+									try {
+										customer =customerViewAllService.searchCustomerById(id);
+									} catch (BusinessException e) {
+										log.warn(e.getMessage());
+									}
+									log.info(customer);
+								break;
+								case 3:
+									log.info("enter the name ofcustomer");
+									String tName=scanner.nextLine();
+									try {
+										customerList =customerViewAllService.searchCustomerByName(tName);
+										for (Customer customer2 : customerList) {
+											log.info(customer2);
+										}
+									} catch (BusinessException e) {
+										log.warn(e.getMessage());
+									}
+								break;
+								case 4:
+									log.info("enter the order id");
+									int orderId=Integer.parseInt(scanner.nextLine());
+									try {
+										customer =customerViewAllService.searchCustomerByOrderId(orderId);
+									} catch (BusinessException e) {
+										log.warn(e.getMessage());
+									}
+									log.info(customer);
+								break;
+								case 5:
+									log.info("going back....");
+								break;
+								}
+							}
+							while(searchChoice!=5);
 						break;
 						case 6:
+							List<Order> orderList=new ArrayList<>();
+							Order order=null;
+							int orderChoice=0;
+							OrderService orderService = new OrderServiceImpl();
+							do {
+							try {
+								orderList=orderService.viewAllCustomerOrder();
+								log.info("O.id      Pname         Qty   Tcost     Status   Cust.Id");
+								orderList.stream().forEach(x -> System.out.printf("%-5d%-6s %-12s %-3d %-9.1f %-12s %-3d \n\n", x.getId(),
+										x.getProduct().getBrandName(),x.getProduct().getName(),x.getpQuantity(),x.getOrderCost(),x.getStatus(),x.getCustomer().getId()) );
+								log.info("1)to change status of recieved order");
+								log.info("2)go back to customer home page");
+								orderChoice=Integer.parseInt(scanner.nextLine());
+								switch (orderChoice) {
+								
+								case 1:
+									log.info("Enter the id of order to change status");
+									int orderId=Integer.parseInt(scanner.nextLine());
+									order=orderService.selectOrderEmployee(orderList, orderId);
+									log.info(order);
+									order=orderService.orderShipped(order);
+									log.info("\norder status changed succesfully!\n");
+									break;
+								case 2:
+									log.info("*Going Back to Customer home page*\n\n");
+								}
+							} catch (BusinessException e) {
+								// TODO Auto-generated catch block
+								log.warn(e.getMessage()); 
+							}
+							}
+							while(orderChoice!=2);
+							
+						break;
+						case 7:
 							log.info("going back to employee login");
 						break;	
-						case 7:
+						case 8:
 							log.info("going back to mainlogin login");
-							employeeChoice=6;
+							employeeChoice=7;
 							employeelogin=0;
 						break;
 					}
 					
 					
 				}
-				while(employeeChoice!=6);
+				while(employeeChoice!=7);
 			}
 			while(employeelogin!=0);
 			
@@ -248,8 +359,9 @@ public class ShoppingAppMain {
 		case 2:
 			int accountChoice=0;
 			do {
-				log.info("          Customer login");
-				log.info("\n1)Already have account");
+				log.info("\n        Customer login\n"
+						+ "     -------------------\n");
+				log.info("1)Already have account");
 				log.info("2)New user-Create account");
 				log.info("3)Go Back");
 				log.info("\nPlease select an option");
@@ -268,7 +380,8 @@ public class ShoppingAppMain {
 						CustomerLoginService customerLoginService = new CustomerLoginServiceImpl();
 						String email;
 						String pass;
-						log.info("          login to account");
+						log.info("\n      login to account\n"
+								+ "    --------------------\n");
 						try {
 							log.info("Enter your registerd mail id");
 							email=scanner.nextLine();
@@ -278,8 +391,6 @@ public class ShoppingAppMain {
 							customer=customerLoginService.customerLogin(customer);
 							
 							if(customer.getId()>0) {
-							log.info("User logined with below details");
-							log.info(customer);
 							customerlogIn++;
 							}
 							else {
@@ -294,14 +405,22 @@ public class ShoppingAppMain {
 
 						List<Product> productList=null;
 						ProductViewService productViewService =null;
-						CartItemService cartItemService =null;
+						CartItemService cartItemService=new CartItemServiceImpl();
+						OrderService orderService = new OrderServiceImpl();
 						CartItem cartItem=null;
+						log.info("\n-------Welcome to ONLINE SHOP "+customer.getFirstName()+" "+customer.getLastName()+"--------\n"
+								+ "        ---------------------------------" );
 						do {
 							int customerchoice=0;
-							log.info("Welcome to ONLINE SHOP "+customer.getFirstName()+" "+customer.getLastName() );
-							log.info("1)View all products");
+							
+							log.info("\n1)View all products");
 							log.info("2)Add products to cart");
-							log.info("\nPlease enter your choice(1-3)");
+							log.info("3)open cart");
+							log.info("4)view orders status");
+							log.info("5)view profile");
+							log.info("6)LOG OUT");
+							log.info("7)goto ONLINE SHOPPY Home ");
+							log.info("\nPlease enter your choice(1-4)");
 							customerchoice=Integer.parseInt(scanner.nextLine());
 							switch(customerchoice) {
 								
@@ -311,11 +430,15 @@ public class ShoppingAppMain {
 								try {
 									productList=productViewService.productView();
 									if(productList!=null && productList.size()>0) {
-										log.info("Total there are "+productList.size()+" number of products \nprinting the products");
-										for(Product product:productList) {
-											log.info(product);
-											
-										}
+										log.info("---there are "+productList.size()+" different product available--- \n"
+												+ "      ------printing the products-----\n"
+												+ "      --------------------------------\n");
+										
+										log.info(" id      Products         price ");
+										log.info("---------------------------------");
+										productList.stream().forEach(x -> System.out.printf("%-5d%-6s %-12s %-9.1f  \n\n", x.getId(),
+												x.getBrandName(),x.getName(),x.getPrice()) );
+										log.info("\n");
 									}
 								} catch (BusinessException e) {
 									log.warn(e.getMessage());
@@ -334,23 +457,109 @@ public class ShoppingAppMain {
 											
 										}
 									}
+									log.info("enter the id of product to add inside cart");
+									int productId=Integer.parseInt(scanner.nextLine());
+									log.info("Enter the Qunatity of product");
+									int productQ=Integer.parseInt(scanner.nextLine());
+									Product pTemp=productViewService.selectProduct(productList, productId);
+									cartItem=new CartItem(customer, pTemp, productQ);
+									cartItem=cartItemService.addItem(cartItem);
+									log.info(cartItem.getQuantity()+"Nos of "+ cartItem.getProduct().getName()+ "added to cart successfully!");
 								} catch (BusinessException e) {
 									log.warn(e.getMessage());
 								}
-								log.info("enter the id of product to add inside cart");
-								int productId=Integer.parseInt(scanner.nextLine());
-								log.info("Enter the Qunatity of product");
-								int productQ=Integer.parseInt(scanner.nextLine());
-								
-//								log.info("Deletng the  product below");
-//								Product pTemp=null;
-//								for (Product product : productList) {
-//									if(productId==)
-//								}
 							break;
+							case 3:
+								List<CartItem> cartList= new ArrayList<>();
+								
+								log.info("\n       ---Items in cart---\n"
+										+ "         -----------------");
+								try {
+									
+									cartList =cartItemService.getAllCartItem(customer);
+									log.info(" id      Item            price    Qty     Toalprice ");
+									log.info("----------------------------------------------------");
+									cartList.stream().forEach(x -> System.out.printf("%-5d%-6s %-12s %-8.1f %-3d %-9.1f \n\n", x.getProduct().getId(),
+											x.getProduct().getBrandName(),x.getProduct().getName(),x.getProduct().getPrice(),
+											x.getQuantity(),x.getLineTotal()) );
+									Double totalCost=cartList.stream().mapToDouble(e->e.getLineTotal()).sum();
+									log.info("----------------------------------------------------");
+									log.info(" |	         Total cost :"+totalCost+"	        | ");
+									log.info("-----------------------------------------------------");
+									log.info("1)place order");
+									log.info("2)go back to customer home");
+									int cartChoice=Integer.parseInt(scanner.nextLine());
+									switch(cartChoice) {
+									case 1:
+										if(orderService.orderPlaced(cartList)) {
+											log.info("\nOrder placed successfully!!\n");
+										}
+									break;
+									default:
+										log.info("\ngoing back to customer home page\n");
 						
+									}
+									
+								} catch (BusinessException e) {
+									log.warn(e.getMessage());
+								}
+								
+							break;
+							case 4:
+								
+								List<Order> orderList=new ArrayList<>();
+								Order order=null;
+								int orderChoice=0;
+								do {
+								try {
+									orderList=orderService.viewAllOrder(customer);
+									log.info("id      Pname        Qty   Tcost     Status");
+									orderList.stream().forEach(x -> System.out.printf("%-3d%-6s %-12s-%-3d %-9.1f %-8s \n\n", x.getId(),
+											x.getProduct().getBrandName(),x.getProduct().getName(),x.getpQuantity(),x.getOrderCost(),x.getStatus()) );
+									log.info("1)to change status of recieved order");
+									log.info("2)go back to customer home page");
+									orderChoice=Integer.parseInt(scanner.nextLine());
+									switch (orderChoice) {
+									
+									case 1:
+										log.info("Enter the id of order to change status");
+										int orderId=Integer.parseInt(scanner.nextLine());
+										order=orderService.selectOrderCustomer(orderList, orderId);
+										log.info(order);
+										order=orderService.orderRecieved(order);
+										log.info("\norder status changed succesfully!\n");
+										break;
+									case 2:
+										log.info("Going Back to Customer home page");
+									}
+								} catch (BusinessException e) {
+									// TODO Auto-generated catch block
+									log.warn(e.getMessage()); 
+								}
+								}
+								while(orderChoice!=2);
+							case 5:
+								log.info("\n          --Profile view-- \n"
+										+ "            ----------------\n");
+								log.info("Hello "+customer.getFirstName()+"!\n\n");
+								log.info("first name: "+customer.getFirstName()+"\n");
+								log.info("last name: "+customer.getLastName()+"\n");
+								log.info("email Id: "+customer.getEmailId()+"\n");
+								
+								
+							break;
+							case 6:
+								log.info("\ngoing Back...");
+								customerlogIn--;
+							break;
+							case 7:
+								log.info("\ngoing Back to ONLINE SHOPPY home...");
+								customerlogIn--;
+								accountLoginChoice=2;
+								accountChoice=0;
 							}
-						}
+							}
+						
 						while(customerlogIn!=0);
 					}
 					while(accountLoginChoice!=2);
@@ -364,6 +573,7 @@ public class ShoppingAppMain {
 						String pass;
 					//	String pass1;
 						log.info("          Create a new account");
+						log.info("         ----------------------\n");
 						try {
 						log.info("Enter your first name");
 						fName=scanner.nextLine();
@@ -385,8 +595,9 @@ public class ShoppingAppMain {
 							log.info(e.getMessage());
 						}
 					}while(accountChoice!=0);
-				case 3:
 					break;
+				case 3:
+					
 				}
 			}
 			while(accountChoice!=3);

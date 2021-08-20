@@ -11,7 +11,13 @@ public class ProductAddServiceImpli implements ProductAddService {
 	@Override
 	public Product productAdd(Product product) throws BusinessException {
 		
-		return productAddDAO.productAdd(product);
+		product= productAddDAO.productAdd(product);
+		if(!(product.getId()>0)){
+			throw new BusinessException("Failed to add product to database");
+		}
+		else {
+			return product;
+		}
 	}
 
 }
