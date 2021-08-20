@@ -1,0 +1,588 @@
+[main] 2021-08-20 14:49:07 INFO  org.apache.log4j.chainsaw.Main  - 
+*******************************************
+[main] 2021-08-20 14:49:07 INFO  org.apache.log4j.chainsaw.Main  - 
+  ----------  ONLINE SHOPPY  -----------
+[main] 2021-08-20 14:49:07 INFO  org.apache.log4j.chainsaw.Main  - 
+*******************************************
+[main] 2021-08-20 14:49:07 INFO  org.apache.log4j.chainsaw.Main  - 
+     Welcome to Online shoppy!
+
+[main] 2021-08-20 14:49:07 INFO  org.apache.log4j.chainsaw.Main  - 1)Login as an employee
+[main] 2021-08-20 14:49:07 INFO  org.apache.log4j.chainsaw.Main  - 2)Login as an customer
+[main] 2021-08-20 14:49:07 INFO  org.apache.log4j.chainsaw.Main  - 3)EXIT
+[main] 2021-08-20 14:49:07 INFO  org.apache.log4j.chainsaw.Main  - 
+Please enter your choice(1-3)
+[main] 2021-08-20 14:49:18 INFO  org.apache.log4j.chainsaw.Main  - 
+        Customer login
+     -------------------
+
+[main] 2021-08-20 14:49:18 INFO  org.apache.log4j.chainsaw.Main  - 1)Already have account
+[main] 2021-08-20 14:49:18 INFO  org.apache.log4j.chainsaw.Main  - 2)New user-Create account
+[main] 2021-08-20 14:49:18 INFO  org.apache.log4j.chainsaw.Main  - 3)Go Back
+[main] 2021-08-20 14:49:18 INFO  org.apache.log4j.chainsaw.Main  - 
+Please select an option
+[main] 2021-08-20 14:49:20 INFO  org.apache.log4j.chainsaw.Main  - 
+      login to account
+    --------------------
+
+[main] 2021-08-20 14:49:20 INFO  org.apache.log4j.chainsaw.Main  - Enter your registerd mail id
+[main] 2021-08-20 14:49:29 INFO  org.apache.log4j.chainsaw.Main  - Enter your password
+[main] 2021-08-20 14:49:37 INFO  org.apache.log4j.chainsaw.Main  - 
+----Invlaid Eamil Id-----
+[main] 2021-08-20 14:49:37 INFO  org.apache.log4j.chainsaw.Main  - 
+      login to account
+    --------------------
+
+[main] 2021-08-20 14:49:37 INFO  org.apache.log4j.chainsaw.Main  - Enter your registerd mail id
+[main] 2021-08-20 14:50:15 INFO  org.apache.log4j.chainsaw.Main  - Enter your password
+[main] 2021-08-20 14:50:23 INFO  org.apache.log4j.chainsaw.Main  - 
+-------Welcome to ONLINE SHOP Fahad R S--------
+        ---------------------------------
+[main] 2021-08-20 14:50:23 INFO  org.apache.log4j.chainsaw.Main  - 
+1)View all products
+[main] 2021-08-20 14:50:23 INFO  org.apache.log4j.chainsaw.Main  - 2)Add products to cart
+[main] 2021-08-20 14:50:23 INFO  org.apache.log4j.chainsaw.Main  - 3)open cart
+[main] 2021-08-20 14:50:23 INFO  org.apache.log4j.chainsaw.Main  - 4)view orders status
+[main] 2021-08-20 14:50:23 INFO  org.apache.log4j.chainsaw.Main  - 5)view profile
+[main] 2021-08-20 14:50:23 INFO  org.apache.log4j.chainsaw.Main  - 6)LOG OUT
+[main] 2021-08-20 14:50:23 INFO  org.apache.log4j.chainsaw.Main  - 7)goto ONLINE SHOPPY Home 
+[main] 2021-08-20 14:50:23 INFO  org.apache.log4j.chainsaw.Main  - 
+Please enter your choice(1-4)
+[main] 2021-08-20 14:51:10 INFO  org.apache.log4j.chainsaw.Main  - ---there are 10 different product available--- 
+      ------printing the products-----
+      --------------------------------
+
+[main] 2021-08-20 14:51:10 INFO  org.apache.log4j.chainsaw.Main  -  id      Products         price 
+[main] 2021-08-20 14:51:10 INFO  org.apache.log4j.chainsaw.Main  - ---------------------------------
+[main] 2021-08-20 14:51:10 INFO  org.apache.log4j.chainsaw.Main  - 
+
+[main] 2021-08-20 14:51:10 INFO  org.apache.log4j.chainsaw.Main  - 
+1)View all products
+[main] 2021-08-20 14:51:10 INFO  org.apache.log4j.chainsaw.Main  - 2)Add products to cart
+[main] 2021-08-20 14:51:10 INFO  org.apache.log4j.chainsaw.Main  - 3)open cart
+[main] 2021-08-20 14:51:10 INFO  org.apache.log4j.chainsaw.Main  - 4)view orders status
+[main] 2021-08-20 14:51:10 INFO  org.apache.log4j.chainsaw.Main  - 5)view profile
+[main] 2021-08-20 14:51:10 INFO  org.apache.log4j.chainsaw.Main  - 6)LOG OUT
+[main] 2021-08-20 14:51:10 INFO  org.apache.log4j.chainsaw.Main  - 7)goto ONLINE SHOPPY Home 
+[main] 2021-08-20 14:51:10 INFO  org.apache.log4j.chainsaw.Main  - 
+Please enter your choice(1-4)
+[main] 2021-08-20 14:51:19 INFO  org.apache.log4j.chainsaw.Main  - Total there are 10 number of products 
+printing the products
+[main] 2021-08-20 14:51:19 INFO  org.apache.log4j.chainsaw.Main  - id=1 name :Redmi note 10 pro,     price=19999.0
+[main] 2021-08-20 14:51:19 INFO  org.apache.log4j.chainsaw.Main  - id=2 name :OPPO A53,     price=13999.0
+[main] 2021-08-20 14:51:19 INFO  org.apache.log4j.chainsaw.Main  - id=5 name :Apple Iphone 12,     price=67999.0
+[main] 2021-08-20 14:51:19 INFO  org.apache.log4j.chainsaw.Main  - id=6 name :realme X7 Max,     price=27999.0
+[main] 2021-08-20 14:51:19 INFO  org.apache.log4j.chainsaw.Main  - id=7 name :Redmi Mi 10I,     price=21999.0
+[main] 2021-08-20 14:51:19 INFO  org.apache.log4j.chainsaw.Main  - id=8 name :Redmi Mi 10I,     price=21999.0
+[main] 2021-08-20 14:51:19 INFO  org.apache.log4j.chainsaw.Main  - id=9 name :OPPO A53,     price=13999.0
+[main] 2021-08-20 14:51:19 INFO  org.apache.log4j.chainsaw.Main  - id=10 name :Redmi Mi 10I,     price=21999.0
+[main] 2021-08-20 14:51:19 INFO  org.apache.log4j.chainsaw.Main  - id=12 name :Redmi Mi 10I,     price=21999.0
+[main] 2021-08-20 14:51:19 INFO  org.apache.log4j.chainsaw.Main  - id=13 name :Apple I phone 11,     price=50000.0
+[main] 2021-08-20 14:51:19 INFO  org.apache.log4j.chainsaw.Main  - enter the id of product to add inside cart
+[main] 2021-08-20 14:51:49 INFO  org.apache.log4j.chainsaw.Main  - Enter the Qunatity of product
+[main] 2021-08-20 14:51:52 INFO  org.apache.log4j.chainsaw.Main  - 2Nos of X7 Maxadded to cart successfully!
+[main] 2021-08-20 14:51:52 INFO  org.apache.log4j.chainsaw.Main  - 
+1)View all products
+[main] 2021-08-20 14:51:52 INFO  org.apache.log4j.chainsaw.Main  - 2)Add products to cart
+[main] 2021-08-20 14:51:52 INFO  org.apache.log4j.chainsaw.Main  - 3)open cart
+[main] 2021-08-20 14:51:52 INFO  org.apache.log4j.chainsaw.Main  - 4)view orders status
+[main] 2021-08-20 14:51:52 INFO  org.apache.log4j.chainsaw.Main  - 5)view profile
+[main] 2021-08-20 14:51:52 INFO  org.apache.log4j.chainsaw.Main  - 6)LOG OUT
+[main] 2021-08-20 14:51:52 INFO  org.apache.log4j.chainsaw.Main  - 7)goto ONLINE SHOPPY Home 
+[main] 2021-08-20 14:51:52 INFO  org.apache.log4j.chainsaw.Main  - 
+Please enter your choice(1-4)
+[main] 2021-08-20 14:51:56 INFO  org.apache.log4j.chainsaw.Main  - 
+       ---Items in cart---
+         -----------------
+[main] 2021-08-20 14:51:56 INFO  org.apache.log4j.chainsaw.Main  -  id      Item            price    Qty     Toalprice 
+[main] 2021-08-20 14:51:56 INFO  org.apache.log4j.chainsaw.Main  - ----------------------------------------------------
+[main] 2021-08-20 14:51:56 INFO  org.apache.log4j.chainsaw.Main  - ----------------------------------------------------
+[main] 2021-08-20 14:51:56 INFO  org.apache.log4j.chainsaw.Main  -  |	         Total cost :55998.0	        | 
+[main] 2021-08-20 14:51:56 INFO  org.apache.log4j.chainsaw.Main  - -----------------------------------------------------
+[main] 2021-08-20 14:51:56 INFO  org.apache.log4j.chainsaw.Main  - 1)place order
+[main] 2021-08-20 14:51:56 INFO  org.apache.log4j.chainsaw.Main  - 2)go back to customer home
+[main] 2021-08-20 14:52:02 INFO  org.apache.log4j.chainsaw.Main  - 
+going back to customer home page
+
+[main] 2021-08-20 14:52:02 INFO  org.apache.log4j.chainsaw.Main  - 
+1)View all products
+[main] 2021-08-20 14:52:02 INFO  org.apache.log4j.chainsaw.Main  - 2)Add products to cart
+[main] 2021-08-20 14:52:02 INFO  org.apache.log4j.chainsaw.Main  - 3)open cart
+[main] 2021-08-20 14:52:02 INFO  org.apache.log4j.chainsaw.Main  - 4)view orders status
+[main] 2021-08-20 14:52:02 INFO  org.apache.log4j.chainsaw.Main  - 5)view profile
+[main] 2021-08-20 14:52:02 INFO  org.apache.log4j.chainsaw.Main  - 6)LOG OUT
+[main] 2021-08-20 14:52:02 INFO  org.apache.log4j.chainsaw.Main  - 7)goto ONLINE SHOPPY Home 
+[main] 2021-08-20 14:52:02 INFO  org.apache.log4j.chainsaw.Main  - 
+Please enter your choice(1-4)
+[main] 2021-08-20 15:11:11 INFO  org.apache.log4j.chainsaw.Main  - 
+*******************************************
+[main] 2021-08-20 15:11:11 INFO  org.apache.log4j.chainsaw.Main  - 
+  ----------  ONLINE SHOPPY  -----------
+[main] 2021-08-20 15:11:11 INFO  org.apache.log4j.chainsaw.Main  - 
+*******************************************
+[main] 2021-08-20 15:11:11 INFO  org.apache.log4j.chainsaw.Main  - 
+     Welcome to Online shoppy!
+
+[main] 2021-08-20 15:11:11 INFO  org.apache.log4j.chainsaw.Main  - 1)Login as an employee
+[main] 2021-08-20 15:11:11 INFO  org.apache.log4j.chainsaw.Main  - 2)Login as an customer
+[main] 2021-08-20 15:11:11 INFO  org.apache.log4j.chainsaw.Main  - 3)EXIT
+[main] 2021-08-20 15:11:11 INFO  org.apache.log4j.chainsaw.Main  - 
+Please enter your choice(1-3)
+[main] 2021-08-20 15:11:24 INFO  org.apache.log4j.chainsaw.Main  -           Employee login
+        ------------------
+
+[main] 2021-08-20 15:11:24 INFO  org.apache.log4j.chainsaw.Main  - Enter your registerd mail id
+[main] 2021-08-20 15:11:39 INFO  org.apache.log4j.chainsaw.Main  - Enter your password
+[main] 2021-08-20 15:11:44 INFO  org.apache.log4j.chainsaw.Main  - 
+----Welcome to ONLINE SHOPPY admin@gmail.com----
+       ----------------------------------
+
+[main] 2021-08-20 15:11:44 INFO  org.apache.log4j.chainsaw.Main  - 1)add product
+[main] 2021-08-20 15:11:44 INFO  org.apache.log4j.chainsaw.Main  - 2)Update product details
+[main] 2021-08-20 15:11:44 INFO  org.apache.log4j.chainsaw.Main  - 3)Delete product
+[main] 2021-08-20 15:11:44 INFO  org.apache.log4j.chainsaw.Main  - 4)View all products
+[main] 2021-08-20 15:11:44 INFO  org.apache.log4j.chainsaw.Main  - 5)View all customers
+[main] 2021-08-20 15:11:44 INFO  org.apache.log4j.chainsaw.Main  - 6)View all orders
+[main] 2021-08-20 15:11:44 INFO  org.apache.log4j.chainsaw.Main  - 7)log out
+[main] 2021-08-20 15:11:44 INFO  org.apache.log4j.chainsaw.Main  - 8)goto ONLINE SHOP Home 
+[main] 2021-08-20 15:11:44 INFO  org.apache.log4j.chainsaw.Main  - 
+Please enter your choice(1-8)
+[main] 2021-08-20 15:51:45 INFO  org.apache.log4j.chainsaw.Main  - ---there are 10 different product available--- 
+      ------printing the products-----
+      --------------------------------
+
+[main] 2021-08-20 15:51:45 INFO  org.apache.log4j.chainsaw.Main  -  id      Products             price 
+[main] 2021-08-20 15:51:45 INFO  org.apache.log4j.chainsaw.Main  - ---------------------------------
+[main] 2021-08-20 15:51:45 INFO  org.apache.log4j.chainsaw.Main  - 
+
+[main] 2021-08-20 15:51:45 INFO  org.apache.log4j.chainsaw.Main  - 
+----Welcome to ONLINE SHOPPY admin@gmail.com----
+       ----------------------------------
+
+[main] 2021-08-20 15:51:45 INFO  org.apache.log4j.chainsaw.Main  - 1)add product
+[main] 2021-08-20 15:51:45 INFO  org.apache.log4j.chainsaw.Main  - 2)Update product details
+[main] 2021-08-20 15:51:45 INFO  org.apache.log4j.chainsaw.Main  - 3)Delete product
+[main] 2021-08-20 15:51:45 INFO  org.apache.log4j.chainsaw.Main  - 4)View all products
+[main] 2021-08-20 15:51:45 INFO  org.apache.log4j.chainsaw.Main  - 5)View all customers
+[main] 2021-08-20 15:51:45 INFO  org.apache.log4j.chainsaw.Main  - 6)View all orders
+[main] 2021-08-20 15:51:45 INFO  org.apache.log4j.chainsaw.Main  - 7)log out
+[main] 2021-08-20 15:51:45 INFO  org.apache.log4j.chainsaw.Main  - 8)goto ONLINE SHOP Home 
+[main] 2021-08-20 15:51:45 INFO  org.apache.log4j.chainsaw.Main  - 
+Please enter your choice(1-8)
+[main] 2021-08-20 15:51:56 INFO  org.apache.log4j.chainsaw.Main  - ---there are 10 different product available--- 
+      ------printing the products-----
+      --------------------------------
+
+[main] 2021-08-20 15:51:56 INFO  org.apache.log4j.chainsaw.Main  -  id      Products             price 
+[main] 2021-08-20 15:51:56 INFO  org.apache.log4j.chainsaw.Main  - ---------------------------------
+[main] 2021-08-20 15:51:56 INFO  org.apache.log4j.chainsaw.Main  - Enter the Id of the product to delete
+[main] 2021-08-20 15:52:03 INFO  org.apache.log4j.chainsaw.Main  - Deletng the  product below
+[main] 2021-08-20 15:52:03 INFO  org.apache.log4j.chainsaw.Main  - Product Deleted Successfully
+[main] 2021-08-20 15:52:03 INFO  org.apache.log4j.chainsaw.Main  - 
+----Welcome to ONLINE SHOPPY admin@gmail.com----
+       ----------------------------------
+
+[main] 2021-08-20 15:52:03 INFO  org.apache.log4j.chainsaw.Main  - 1)add product
+[main] 2021-08-20 15:52:03 INFO  org.apache.log4j.chainsaw.Main  - 2)Update product details
+[main] 2021-08-20 15:52:03 INFO  org.apache.log4j.chainsaw.Main  - 3)Delete product
+[main] 2021-08-20 15:52:03 INFO  org.apache.log4j.chainsaw.Main  - 4)View all products
+[main] 2021-08-20 15:52:03 INFO  org.apache.log4j.chainsaw.Main  - 5)View all customers
+[main] 2021-08-20 15:52:03 INFO  org.apache.log4j.chainsaw.Main  - 6)View all orders
+[main] 2021-08-20 15:52:03 INFO  org.apache.log4j.chainsaw.Main  - 7)log out
+[main] 2021-08-20 15:52:03 INFO  org.apache.log4j.chainsaw.Main  - 8)goto ONLINE SHOP Home 
+[main] 2021-08-20 15:52:03 INFO  org.apache.log4j.chainsaw.Main  - 
+Please enter your choice(1-8)
+[main] 2021-08-20 15:52:12 INFO  org.apache.log4j.chainsaw.Main  - ---there are 9 different product available--- 
+      ------printing the products-----
+      --------------------------------
+
+[main] 2021-08-20 15:52:12 INFO  org.apache.log4j.chainsaw.Main  -  id      Products             price 
+[main] 2021-08-20 15:52:12 INFO  org.apache.log4j.chainsaw.Main  - ---------------------------------
+[main] 2021-08-20 15:52:12 INFO  org.apache.log4j.chainsaw.Main  - 
+
+[main] 2021-08-20 15:52:12 INFO  org.apache.log4j.chainsaw.Main  - 
+----Welcome to ONLINE SHOPPY admin@gmail.com----
+       ----------------------------------
+
+[main] 2021-08-20 15:52:12 INFO  org.apache.log4j.chainsaw.Main  - 1)add product
+[main] 2021-08-20 15:52:12 INFO  org.apache.log4j.chainsaw.Main  - 2)Update product details
+[main] 2021-08-20 15:52:12 INFO  org.apache.log4j.chainsaw.Main  - 3)Delete product
+[main] 2021-08-20 15:52:12 INFO  org.apache.log4j.chainsaw.Main  - 4)View all products
+[main] 2021-08-20 15:52:12 INFO  org.apache.log4j.chainsaw.Main  - 5)View all customers
+[main] 2021-08-20 15:52:12 INFO  org.apache.log4j.chainsaw.Main  - 6)View all orders
+[main] 2021-08-20 15:52:12 INFO  org.apache.log4j.chainsaw.Main  - 7)log out
+[main] 2021-08-20 15:52:12 INFO  org.apache.log4j.chainsaw.Main  - 8)goto ONLINE SHOP Home 
+[main] 2021-08-20 15:52:12 INFO  org.apache.log4j.chainsaw.Main  - 
+Please enter your choice(1-8)
+[main] 2021-08-20 15:52:20 INFO  org.apache.log4j.chainsaw.Main  - O.id      Pname         Qty   Tcost     Status   Cust.Id
+[main] 2021-08-20 15:52:20 INFO  org.apache.log4j.chainsaw.Main  - 1)to change status of recieved order
+[main] 2021-08-20 15:52:20 INFO  org.apache.log4j.chainsaw.Main  - 2)go back to customer home page
+[main] 2021-08-20 15:52:36 INFO  org.apache.log4j.chainsaw.Main  - Enter the id of order to change status
+[main] 2021-08-20 15:52:45 INFO  org.apache.log4j.chainsaw.Main  - Order [id=9, customer=Customer [id=1, firstName=null, lastName=null, password=null, emailId=null], prodcuct=id=0 name :Apple Iphone 12,     price=67999.0, status=Ordered, orderCost=135998.0, pQuantity=2]
+[main] 2021-08-20 15:52:45 INFO  org.apache.log4j.chainsaw.Main  - 
+order status changed succesfully!
+
+[main] 2021-08-20 15:52:45 INFO  org.apache.log4j.chainsaw.Main  - O.id      Pname         Qty   Tcost     Status   Cust.Id
+[main] 2021-08-20 15:52:45 INFO  org.apache.log4j.chainsaw.Main  - 1)to change status of recieved order
+[main] 2021-08-20 15:52:45 INFO  org.apache.log4j.chainsaw.Main  - 2)go back to customer home page
+[main] 2021-08-20 15:52:53 INFO  org.apache.log4j.chainsaw.Main  - *Going Back to Customer home page*
+
+
+[main] 2021-08-20 15:52:53 INFO  org.apache.log4j.chainsaw.Main  - 
+----Welcome to ONLINE SHOPPY admin@gmail.com----
+       ----------------------------------
+
+[main] 2021-08-20 15:52:53 INFO  org.apache.log4j.chainsaw.Main  - 1)add product
+[main] 2021-08-20 15:52:53 INFO  org.apache.log4j.chainsaw.Main  - 2)Update product details
+[main] 2021-08-20 15:52:53 INFO  org.apache.log4j.chainsaw.Main  - 3)Delete product
+[main] 2021-08-20 15:52:53 INFO  org.apache.log4j.chainsaw.Main  - 4)View all products
+[main] 2021-08-20 15:52:53 INFO  org.apache.log4j.chainsaw.Main  - 5)View all customers
+[main] 2021-08-20 15:52:53 INFO  org.apache.log4j.chainsaw.Main  - 6)View all orders
+[main] 2021-08-20 15:52:53 INFO  org.apache.log4j.chainsaw.Main  - 7)log out
+[main] 2021-08-20 15:52:53 INFO  org.apache.log4j.chainsaw.Main  - 8)goto ONLINE SHOP Home 
+[main] 2021-08-20 15:52:53 INFO  org.apache.log4j.chainsaw.Main  - 
+Please enter your choice(1-8)
+[main] 2021-08-20 15:52:58 INFO  org.apache.log4j.chainsaw.Main  - 
+       Add new product
+      ------------------
+
+[main] 2021-08-20 15:52:58 INFO  org.apache.log4j.chainsaw.Main  - Enter name of the product
+[main] 2021-08-20 15:53:03 INFO  org.apache.log4j.chainsaw.Main  - Enter price
+[main] 2021-08-20 15:53:06 INFO  org.apache.log4j.chainsaw.Main  - Enter the brand name of product
+[main] 2021-08-20 15:53:10 INFO  org.apache.log4j.chainsaw.Main  - product added with details below
+[main] 2021-08-20 15:53:10 INFO  org.apache.log4j.chainsaw.Main  - id=14 name :lexi pen,     price=20.0
+[main] 2021-08-20 15:53:10 INFO  org.apache.log4j.chainsaw.Main  - 
+----Welcome to ONLINE SHOPPY admin@gmail.com----
+       ----------------------------------
+
+[main] 2021-08-20 15:53:10 INFO  org.apache.log4j.chainsaw.Main  - 1)add product
+[main] 2021-08-20 15:53:10 INFO  org.apache.log4j.chainsaw.Main  - 2)Update product details
+[main] 2021-08-20 15:53:10 INFO  org.apache.log4j.chainsaw.Main  - 3)Delete product
+[main] 2021-08-20 15:53:10 INFO  org.apache.log4j.chainsaw.Main  - 4)View all products
+[main] 2021-08-20 15:53:10 INFO  org.apache.log4j.chainsaw.Main  - 5)View all customers
+[main] 2021-08-20 15:53:10 INFO  org.apache.log4j.chainsaw.Main  - 6)View all orders
+[main] 2021-08-20 15:53:10 INFO  org.apache.log4j.chainsaw.Main  - 7)log out
+[main] 2021-08-20 15:53:10 INFO  org.apache.log4j.chainsaw.Main  - 8)goto ONLINE SHOP Home 
+[main] 2021-08-20 15:53:10 INFO  org.apache.log4j.chainsaw.Main  - 
+Please enter your choice(1-8)
+[main] 2021-08-20 15:53:22 INFO  org.apache.log4j.chainsaw.Main  - ---there are 10 different product available--- 
+      ------printing the products-----
+      --------------------------------
+
+[main] 2021-08-20 15:53:22 INFO  org.apache.log4j.chainsaw.Main  -  id      Products             price 
+[main] 2021-08-20 15:53:22 INFO  org.apache.log4j.chainsaw.Main  - ---------------------------------
+[main] 2021-08-20 15:53:22 INFO  org.apache.log4j.chainsaw.Main  - 
+
+[main] 2021-08-20 15:53:22 INFO  org.apache.log4j.chainsaw.Main  - 
+----Welcome to ONLINE SHOPPY admin@gmail.com----
+       ----------------------------------
+
+[main] 2021-08-20 15:53:22 INFO  org.apache.log4j.chainsaw.Main  - 1)add product
+[main] 2021-08-20 15:53:22 INFO  org.apache.log4j.chainsaw.Main  - 2)Update product details
+[main] 2021-08-20 15:53:22 INFO  org.apache.log4j.chainsaw.Main  - 3)Delete product
+[main] 2021-08-20 15:53:22 INFO  org.apache.log4j.chainsaw.Main  - 4)View all products
+[main] 2021-08-20 15:53:22 INFO  org.apache.log4j.chainsaw.Main  - 5)View all customers
+[main] 2021-08-20 15:53:22 INFO  org.apache.log4j.chainsaw.Main  - 6)View all orders
+[main] 2021-08-20 15:53:22 INFO  org.apache.log4j.chainsaw.Main  - 7)log out
+[main] 2021-08-20 15:53:22 INFO  org.apache.log4j.chainsaw.Main  - 8)goto ONLINE SHOP Home 
+[main] 2021-08-20 15:53:22 INFO  org.apache.log4j.chainsaw.Main  - 
+Please enter your choice(1-8)
+[main] 2021-08-20 15:53:30 INFO  org.apache.log4j.chainsaw.Main  - ---there are 10 different product available--- 
+      ------printing the products-----
+      --------------------------------
+
+[main] 2021-08-20 15:53:30 INFO  org.apache.log4j.chainsaw.Main  -  id      Products             price 
+[main] 2021-08-20 15:53:30 INFO  org.apache.log4j.chainsaw.Main  - ---------------------------------
+[main] 2021-08-20 15:53:30 INFO  org.apache.log4j.chainsaw.Main  - Enter the Product id to edit details 
+[main] 2021-08-20 15:53:37 INFO  org.apache.log4j.chainsaw.Main  - Selected product is 
+[main] 2021-08-20 15:53:37 INFO  org.apache.log4j.chainsaw.Main  - id=14 name :lexi pen,     price=20.0
+[main] 2021-08-20 15:53:37 INFO  org.apache.log4j.chainsaw.Main  - Enter name of the product
+[main] 2021-08-20 15:53:54 INFO  org.apache.log4j.chainsaw.Main  - Enter price
+[main] 2021-08-20 15:53:57 INFO  org.apache.log4j.chainsaw.Main  - Enter the brand name of product
+[main] 2021-08-20 15:54:01 INFO  org.apache.log4j.chainsaw.Main  - Producted Updated successfully!
+[main] 2021-08-20 15:54:01 INFO  org.apache.log4j.chainsaw.Main  - id=14 name :lexi PEN,     price=30.0
+[main] 2021-08-20 15:54:01 INFO  org.apache.log4j.chainsaw.Main  - 
+----Welcome to ONLINE SHOPPY admin@gmail.com----
+       ----------------------------------
+
+[main] 2021-08-20 15:54:01 INFO  org.apache.log4j.chainsaw.Main  - 1)add product
+[main] 2021-08-20 15:54:01 INFO  org.apache.log4j.chainsaw.Main  - 2)Update product details
+[main] 2021-08-20 15:54:01 INFO  org.apache.log4j.chainsaw.Main  - 3)Delete product
+[main] 2021-08-20 15:54:01 INFO  org.apache.log4j.chainsaw.Main  - 4)View all products
+[main] 2021-08-20 15:54:01 INFO  org.apache.log4j.chainsaw.Main  - 5)View all customers
+[main] 2021-08-20 15:54:01 INFO  org.apache.log4j.chainsaw.Main  - 6)View all orders
+[main] 2021-08-20 15:54:01 INFO  org.apache.log4j.chainsaw.Main  - 7)log out
+[main] 2021-08-20 15:54:01 INFO  org.apache.log4j.chainsaw.Main  - 8)goto ONLINE SHOP Home 
+[main] 2021-08-20 15:54:01 INFO  org.apache.log4j.chainsaw.Main  - 
+Please enter your choice(1-8)
+[main] 2021-08-20 15:54:11 INFO  org.apache.log4j.chainsaw.Main  - ---there are 10 different product available--- 
+      ------printing the products-----
+      --------------------------------
+
+[main] 2021-08-20 15:54:11 INFO  org.apache.log4j.chainsaw.Main  -  id      Products             price 
+[main] 2021-08-20 15:54:11 INFO  org.apache.log4j.chainsaw.Main  - ---------------------------------
+[main] 2021-08-20 15:54:11 INFO  org.apache.log4j.chainsaw.Main  - 
+
+[main] 2021-08-20 15:54:11 INFO  org.apache.log4j.chainsaw.Main  - 
+----Welcome to ONLINE SHOPPY admin@gmail.com----
+       ----------------------------------
+
+[main] 2021-08-20 15:54:11 INFO  org.apache.log4j.chainsaw.Main  - 1)add product
+[main] 2021-08-20 15:54:11 INFO  org.apache.log4j.chainsaw.Main  - 2)Update product details
+[main] 2021-08-20 15:54:11 INFO  org.apache.log4j.chainsaw.Main  - 3)Delete product
+[main] 2021-08-20 15:54:11 INFO  org.apache.log4j.chainsaw.Main  - 4)View all products
+[main] 2021-08-20 15:54:11 INFO  org.apache.log4j.chainsaw.Main  - 5)View all customers
+[main] 2021-08-20 15:54:11 INFO  org.apache.log4j.chainsaw.Main  - 6)View all orders
+[main] 2021-08-20 15:54:11 INFO  org.apache.log4j.chainsaw.Main  - 7)log out
+[main] 2021-08-20 15:54:11 INFO  org.apache.log4j.chainsaw.Main  - 8)goto ONLINE SHOP Home 
+[main] 2021-08-20 15:54:11 INFO  org.apache.log4j.chainsaw.Main  - 
+Please enter your choice(1-8)
+[main] 2021-08-20 15:54:18 INFO  org.apache.log4j.chainsaw.Main  - ---there are 10 different product available--- 
+      ------printing the products-----
+      --------------------------------
+
+[main] 2021-08-20 15:54:18 INFO  org.apache.log4j.chainsaw.Main  -  id      Products             price 
+[main] 2021-08-20 15:54:18 INFO  org.apache.log4j.chainsaw.Main  - ---------------------------------
+[main] 2021-08-20 15:54:18 INFO  org.apache.log4j.chainsaw.Main  - 
+
+[main] 2021-08-20 15:54:18 INFO  org.apache.log4j.chainsaw.Main  - 
+----Welcome to ONLINE SHOPPY admin@gmail.com----
+       ----------------------------------
+
+[main] 2021-08-20 15:54:18 INFO  org.apache.log4j.chainsaw.Main  - 1)add product
+[main] 2021-08-20 15:54:18 INFO  org.apache.log4j.chainsaw.Main  - 2)Update product details
+[main] 2021-08-20 15:54:18 INFO  org.apache.log4j.chainsaw.Main  - 3)Delete product
+[main] 2021-08-20 15:54:18 INFO  org.apache.log4j.chainsaw.Main  - 4)View all products
+[main] 2021-08-20 15:54:18 INFO  org.apache.log4j.chainsaw.Main  - 5)View all customers
+[main] 2021-08-20 15:54:18 INFO  org.apache.log4j.chainsaw.Main  - 6)View all orders
+[main] 2021-08-20 15:54:18 INFO  org.apache.log4j.chainsaw.Main  - 7)log out
+[main] 2021-08-20 15:54:18 INFO  org.apache.log4j.chainsaw.Main  - 8)goto ONLINE SHOP Home 
+[main] 2021-08-20 15:54:18 INFO  org.apache.log4j.chainsaw.Main  - 
+Please enter your choice(1-8)
+[main] 2021-08-20 15:54:30 INFO  org.apache.log4j.chainsaw.Main  - Total there are 4 number of  customers using ONLINE SHOPPY
+[main] 2021-08-20 15:54:30 INFO  org.apache.log4j.chainsaw.Main  - Customer [id=1, firstName=Fahad R, lastName=S, emailId=fahadrs1999@gmail.com]
+[main] 2021-08-20 15:54:30 INFO  org.apache.log4j.chainsaw.Main  - Customer [id=2, firstName=Test, lastName=t, emailId=test.com]
+[main] 2021-08-20 15:54:30 INFO  org.apache.log4j.chainsaw.Main  - Customer [id=3, firstName=Jaango, lastName=aji, emailId=jaango@gmail.com]
+[main] 2021-08-20 15:54:30 INFO  org.apache.log4j.chainsaw.Main  - Customer [id=4, firstName=Jaango, lastName=aji, emailId=jaango@gmail.com]
+[main] 2021-08-20 15:54:30 INFO  org.apache.log4j.chainsaw.Main  - 1)Search customers using emailId
+[main] 2021-08-20 15:54:30 INFO  org.apache.log4j.chainsaw.Main  - 2)Search customers using id
+[main] 2021-08-20 15:54:30 INFO  org.apache.log4j.chainsaw.Main  - 3)Search customers using name
+[main] 2021-08-20 15:54:30 INFO  org.apache.log4j.chainsaw.Main  - 4)Search customers using orderId
+[main] 2021-08-20 15:54:30 INFO  org.apache.log4j.chainsaw.Main  - 5)Go Back
+[main] 2021-08-20 15:54:42 INFO  org.apache.log4j.chainsaw.Main  - enter the customer id
+[main] 2021-08-20 15:54:46 INFO  org.apache.log4j.chainsaw.Main  - Customer [id=4, firstName=Jaango, lastName=aji, password=null, emailId=jaango@gmail.com]
+[main] 2021-08-20 15:54:46 INFO  org.apache.log4j.chainsaw.Main  - 1)Search customers using emailId
+[main] 2021-08-20 15:54:46 INFO  org.apache.log4j.chainsaw.Main  - 2)Search customers using id
+[main] 2021-08-20 15:54:46 INFO  org.apache.log4j.chainsaw.Main  - 3)Search customers using name
+[main] 2021-08-20 15:54:46 INFO  org.apache.log4j.chainsaw.Main  - 4)Search customers using orderId
+[main] 2021-08-20 15:54:46 INFO  org.apache.log4j.chainsaw.Main  - 5)Go Back
+[main] 2021-08-20 15:56:01 INFO  org.apache.log4j.chainsaw.Main  - going back....
+[main] 2021-08-20 15:56:01 INFO  org.apache.log4j.chainsaw.Main  - 
+----Welcome to ONLINE SHOPPY admin@gmail.com----
+       ----------------------------------
+
+[main] 2021-08-20 15:56:01 INFO  org.apache.log4j.chainsaw.Main  - 1)add product
+[main] 2021-08-20 15:56:01 INFO  org.apache.log4j.chainsaw.Main  - 2)Update product details
+[main] 2021-08-20 15:56:01 INFO  org.apache.log4j.chainsaw.Main  - 3)Delete product
+[main] 2021-08-20 15:56:01 INFO  org.apache.log4j.chainsaw.Main  - 4)View all products
+[main] 2021-08-20 15:56:01 INFO  org.apache.log4j.chainsaw.Main  - 5)View all customers
+[main] 2021-08-20 15:56:01 INFO  org.apache.log4j.chainsaw.Main  - 6)View all orders
+[main] 2021-08-20 15:56:01 INFO  org.apache.log4j.chainsaw.Main  - 7)log out
+[main] 2021-08-20 15:56:01 INFO  org.apache.log4j.chainsaw.Main  - 8)goto ONLINE SHOP Home 
+[main] 2021-08-20 15:56:01 INFO  org.apache.log4j.chainsaw.Main  - 
+Please enter your choice(1-8)
+[main] 2021-08-20 15:56:15 INFO  org.apache.log4j.chainsaw.Main  - going back to mainlogin login
+[main] 2021-08-20 15:56:15 INFO  org.apache.log4j.chainsaw.Main  - 
+*******************************************
+[main] 2021-08-20 15:56:15 INFO  org.apache.log4j.chainsaw.Main  - 
+  ----------  ONLINE SHOPPY  -----------
+[main] 2021-08-20 15:56:15 INFO  org.apache.log4j.chainsaw.Main  - 
+*******************************************
+[main] 2021-08-20 15:56:15 INFO  org.apache.log4j.chainsaw.Main  - 
+     Welcome to Online shoppy!
+
+[main] 2021-08-20 15:56:15 INFO  org.apache.log4j.chainsaw.Main  - 1)Login as an employee
+[main] 2021-08-20 15:56:15 INFO  org.apache.log4j.chainsaw.Main  - 2)Login as an customer
+[main] 2021-08-20 15:56:15 INFO  org.apache.log4j.chainsaw.Main  - 3)EXIT
+[main] 2021-08-20 15:56:15 INFO  org.apache.log4j.chainsaw.Main  - 
+Please enter your choice(1-3)
+[main] 2021-08-20 15:56:20 INFO  org.apache.log4j.chainsaw.Main  - 
+        Customer login
+     -------------------
+
+[main] 2021-08-20 15:56:20 INFO  org.apache.log4j.chainsaw.Main  - 1)Already have account
+[main] 2021-08-20 15:56:20 INFO  org.apache.log4j.chainsaw.Main  - 2)New user-Create account
+[main] 2021-08-20 15:56:20 INFO  org.apache.log4j.chainsaw.Main  - 3)Go Back
+[main] 2021-08-20 15:56:20 INFO  org.apache.log4j.chainsaw.Main  - 
+Please select an option
+[main] 2021-08-20 15:56:35 INFO  org.apache.log4j.chainsaw.Main  - Selected option is invalid
+[main] 2021-08-20 15:56:35 INFO  org.apache.log4j.chainsaw.Main  - 
+        Customer login
+     -------------------
+
+[main] 2021-08-20 15:56:35 INFO  org.apache.log4j.chainsaw.Main  - 1)Already have account
+[main] 2021-08-20 15:56:35 INFO  org.apache.log4j.chainsaw.Main  - 2)New user-Create account
+[main] 2021-08-20 15:56:35 INFO  org.apache.log4j.chainsaw.Main  - 3)Go Back
+[main] 2021-08-20 15:56:35 INFO  org.apache.log4j.chainsaw.Main  - 
+Please select an option
+[main] 2021-08-20 15:56:43 INFO  org.apache.log4j.chainsaw.Main  - 
+      login to account
+    --------------------
+
+[main] 2021-08-20 15:56:43 INFO  org.apache.log4j.chainsaw.Main  - Enter your registerd mail id
+[main] 2021-08-20 15:56:52 INFO  org.apache.log4j.chainsaw.Main  - Enter your password
+[main] 2021-08-20 15:57:17 INFO  org.apache.log4j.chainsaw.Main  - 
+---Entered password is not valid----
+--- Password should include at least one capital letter------
+[main] 2021-08-20 15:57:17 INFO  org.apache.log4j.chainsaw.Main  - 
+      login to account
+    --------------------
+
+[main] 2021-08-20 15:57:17 INFO  org.apache.log4j.chainsaw.Main  - Enter your registerd mail id
+[main] 2021-08-20 15:57:34 INFO  org.apache.log4j.chainsaw.Main  - Enter your password
+[main] 2021-08-20 15:57:38 INFO  org.apache.log4j.chainsaw.Main  - 
+---Entered password is not valid----
+--- Password should include at least one capital letter------
+[main] 2021-08-20 15:57:38 INFO  org.apache.log4j.chainsaw.Main  - 
+      login to account
+    --------------------
+
+[main] 2021-08-20 15:57:38 INFO  org.apache.log4j.chainsaw.Main  - Enter your registerd mail id
+[main] 2021-08-20 15:57:45 INFO  org.apache.log4j.chainsaw.Main  - Enter your password
+[main] 2021-08-20 15:57:57 INFO  org.apache.log4j.chainsaw.Main  - 
+-------Welcome to ONLINE SHOP Fahad R S--------
+        ---------------------------------
+[main] 2021-08-20 15:57:57 INFO  org.apache.log4j.chainsaw.Main  - 
+1)View all products
+[main] 2021-08-20 15:57:57 INFO  org.apache.log4j.chainsaw.Main  - 2)Add products to cart
+[main] 2021-08-20 15:57:57 INFO  org.apache.log4j.chainsaw.Main  - 3)open cart
+[main] 2021-08-20 15:57:57 INFO  org.apache.log4j.chainsaw.Main  - 4)view orders status
+[main] 2021-08-20 15:57:57 INFO  org.apache.log4j.chainsaw.Main  - 5)view profile
+[main] 2021-08-20 15:57:57 INFO  org.apache.log4j.chainsaw.Main  - 6)LOG OUT
+[main] 2021-08-20 15:57:57 INFO  org.apache.log4j.chainsaw.Main  - 7)goto ONLINE SHOPPY Home 
+[main] 2021-08-20 15:57:57 INFO  org.apache.log4j.chainsaw.Main  - 
+Please enter your choice(1-4)
+[main] 2021-08-20 15:58:02 INFO  org.apache.log4j.chainsaw.Main  - ---there are 10 different product available--- 
+      ------printing the products-----
+      --------------------------------
+
+[main] 2021-08-20 15:58:02 INFO  org.apache.log4j.chainsaw.Main  -  id      Products         price 
+[main] 2021-08-20 15:58:02 INFO  org.apache.log4j.chainsaw.Main  - ---------------------------------
+[main] 2021-08-20 15:58:02 INFO  org.apache.log4j.chainsaw.Main  - 
+
+[main] 2021-08-20 15:58:02 INFO  org.apache.log4j.chainsaw.Main  - 
+1)View all products
+[main] 2021-08-20 15:58:02 INFO  org.apache.log4j.chainsaw.Main  - 2)Add products to cart
+[main] 2021-08-20 15:58:02 INFO  org.apache.log4j.chainsaw.Main  - 3)open cart
+[main] 2021-08-20 15:58:02 INFO  org.apache.log4j.chainsaw.Main  - 4)view orders status
+[main] 2021-08-20 15:58:02 INFO  org.apache.log4j.chainsaw.Main  - 5)view profile
+[main] 2021-08-20 15:58:02 INFO  org.apache.log4j.chainsaw.Main  - 6)LOG OUT
+[main] 2021-08-20 15:58:02 INFO  org.apache.log4j.chainsaw.Main  - 7)goto ONLINE SHOPPY Home 
+[main] 2021-08-20 15:58:02 INFO  org.apache.log4j.chainsaw.Main  - 
+Please enter your choice(1-4)
+[main] 2021-08-20 15:58:09 INFO  org.apache.log4j.chainsaw.Main  - Total there are 10 number of products 
+printing the products
+[main] 2021-08-20 15:58:09 INFO  org.apache.log4j.chainsaw.Main  - id=1 name :Redmi note 10 pro,     price=19999.0
+[main] 2021-08-20 15:58:09 INFO  org.apache.log4j.chainsaw.Main  - id=2 name :OPPO A53,     price=13999.0
+[main] 2021-08-20 15:58:09 INFO  org.apache.log4j.chainsaw.Main  - id=5 name :Apple Iphone 12,     price=67999.0
+[main] 2021-08-20 15:58:09 INFO  org.apache.log4j.chainsaw.Main  - id=6 name :realme X7 Max,     price=27999.0
+[main] 2021-08-20 15:58:09 INFO  org.apache.log4j.chainsaw.Main  - id=7 name :Redmi Mi 10I,     price=21999.0
+[main] 2021-08-20 15:58:09 INFO  org.apache.log4j.chainsaw.Main  - id=8 name :Redmi Mi 10I,     price=21999.0
+[main] 2021-08-20 15:58:09 INFO  org.apache.log4j.chainsaw.Main  - id=9 name :OPPO A53,     price=13999.0
+[main] 2021-08-20 15:58:09 INFO  org.apache.log4j.chainsaw.Main  - id=10 name :Redmi Mi 10I,     price=21999.0
+[main] 2021-08-20 15:58:09 INFO  org.apache.log4j.chainsaw.Main  - id=12 name :Redmi Mi 10I,     price=21999.0
+[main] 2021-08-20 15:58:09 INFO  org.apache.log4j.chainsaw.Main  - id=14 name :lexi PEN,     price=30.0
+[main] 2021-08-20 15:58:09 INFO  org.apache.log4j.chainsaw.Main  - enter the id of product to add inside cart
+[main] 2021-08-20 15:58:21 INFO  org.apache.log4j.chainsaw.Main  - Enter the Qunatity of product
+[main] 2021-08-20 15:58:31 INFO  org.apache.log4j.chainsaw.Main  - 2Nos of Mi 10Iadded to cart successfully!
+[main] 2021-08-20 15:58:31 INFO  org.apache.log4j.chainsaw.Main  - 
+1)View all products
+[main] 2021-08-20 15:58:31 INFO  org.apache.log4j.chainsaw.Main  - 2)Add products to cart
+[main] 2021-08-20 15:58:31 INFO  org.apache.log4j.chainsaw.Main  - 3)open cart
+[main] 2021-08-20 15:58:31 INFO  org.apache.log4j.chainsaw.Main  - 4)view orders status
+[main] 2021-08-20 15:58:31 INFO  org.apache.log4j.chainsaw.Main  - 5)view profile
+[main] 2021-08-20 15:58:31 INFO  org.apache.log4j.chainsaw.Main  - 6)LOG OUT
+[main] 2021-08-20 15:58:31 INFO  org.apache.log4j.chainsaw.Main  - 7)goto ONLINE SHOPPY Home 
+[main] 2021-08-20 15:58:31 INFO  org.apache.log4j.chainsaw.Main  - 
+Please enter your choice(1-4)
+[main] 2021-08-20 15:58:40 INFO  org.apache.log4j.chainsaw.Main  - 
+       ---Items in cart---
+         -----------------
+[main] 2021-08-20 15:58:40 INFO  org.apache.log4j.chainsaw.Main  -  id      Item            price    Qty     Toalprice 
+[main] 2021-08-20 15:58:40 INFO  org.apache.log4j.chainsaw.Main  - ----------------------------------------------------
+[main] 2021-08-20 15:58:40 INFO  org.apache.log4j.chainsaw.Main  - ----------------------------------------------------
+[main] 2021-08-20 15:58:40 INFO  org.apache.log4j.chainsaw.Main  -  |	         Total cost :99996.0	        | 
+[main] 2021-08-20 15:58:40 INFO  org.apache.log4j.chainsaw.Main  - -----------------------------------------------------
+[main] 2021-08-20 15:58:40 INFO  org.apache.log4j.chainsaw.Main  - 1)place order
+[main] 2021-08-20 15:58:40 INFO  org.apache.log4j.chainsaw.Main  - 2)go back to customer home
+[main] 2021-08-20 15:58:54 INFO  org.apache.log4j.chainsaw.Main  - 
+Order placed successfully!!
+
+[main] 2021-08-20 15:58:54 INFO  org.apache.log4j.chainsaw.Main  - 
+1)View all products
+[main] 2021-08-20 15:58:54 INFO  org.apache.log4j.chainsaw.Main  - 2)Add products to cart
+[main] 2021-08-20 15:58:54 INFO  org.apache.log4j.chainsaw.Main  - 3)open cart
+[main] 2021-08-20 15:58:54 INFO  org.apache.log4j.chainsaw.Main  - 4)view orders status
+[main] 2021-08-20 15:58:54 INFO  org.apache.log4j.chainsaw.Main  - 5)view profile
+[main] 2021-08-20 15:58:54 INFO  org.apache.log4j.chainsaw.Main  - 6)LOG OUT
+[main] 2021-08-20 15:58:54 INFO  org.apache.log4j.chainsaw.Main  - 7)goto ONLINE SHOPPY Home 
+[main] 2021-08-20 15:58:54 INFO  org.apache.log4j.chainsaw.Main  - 
+Please enter your choice(1-4)
+[main] 2021-08-20 15:58:59 INFO  org.apache.log4j.chainsaw.Main  - 
+       ---Items in cart---
+         -----------------
+[main] 2021-08-20 15:58:59 WARN  org.apache.log4j.chainsaw.Main  - No Products added to cart . try adding products
+[main] 2021-08-20 15:58:59 INFO  org.apache.log4j.chainsaw.Main  - 
+1)View all products
+[main] 2021-08-20 15:58:59 INFO  org.apache.log4j.chainsaw.Main  - 2)Add products to cart
+[main] 2021-08-20 15:58:59 INFO  org.apache.log4j.chainsaw.Main  - 3)open cart
+[main] 2021-08-20 15:58:59 INFO  org.apache.log4j.chainsaw.Main  - 4)view orders status
+[main] 2021-08-20 15:58:59 INFO  org.apache.log4j.chainsaw.Main  - 5)view profile
+[main] 2021-08-20 15:58:59 INFO  org.apache.log4j.chainsaw.Main  - 6)LOG OUT
+[main] 2021-08-20 15:58:59 INFO  org.apache.log4j.chainsaw.Main  - 7)goto ONLINE SHOPPY Home 
+[main] 2021-08-20 15:58:59 INFO  org.apache.log4j.chainsaw.Main  - 
+Please enter your choice(1-4)
+[main] 2021-08-20 15:59:11 INFO  org.apache.log4j.chainsaw.Main  - id      Pname        Qty   Tcost     Status
+[main] 2021-08-20 15:59:11 INFO  org.apache.log4j.chainsaw.Main  - 1)to change status of recieved order
+[main] 2021-08-20 15:59:11 INFO  org.apache.log4j.chainsaw.Main  - 2)go back to customer home page
+[main] 2021-08-20 16:00:02 INFO  org.apache.log4j.chainsaw.Main  - id      Pname        Qty   Tcost     Status
+[main] 2021-08-20 16:00:02 INFO  org.apache.log4j.chainsaw.Main  - 1)to change status of recieved order
+[main] 2021-08-20 16:00:02 INFO  org.apache.log4j.chainsaw.Main  - 2)go back to customer home page
+[main] 2021-08-20 16:00:09 INFO  org.apache.log4j.chainsaw.Main  - Enter the id of order to change status
+[main] 2021-08-20 16:00:12 WARN  org.apache.log4j.chainsaw.Main  -  Invalid order ID
+ Enter a valid order id
+[main] 2021-08-20 16:00:12 INFO  org.apache.log4j.chainsaw.Main  - id      Pname        Qty   Tcost     Status
+[main] 2021-08-20 16:00:12 INFO  org.apache.log4j.chainsaw.Main  - 1)to change status of recieved order
+[main] 2021-08-20 16:00:12 INFO  org.apache.log4j.chainsaw.Main  - 2)go back to customer home page
+[main] 2021-08-20 16:00:32 INFO  org.apache.log4j.chainsaw.Main  - Enter the id of order to change status
+[main] 2021-08-20 16:00:35 INFO  org.apache.log4j.chainsaw.Main  - Order [id=9, customer=Customer [id=1, firstName=Fahad R, lastName=S, password=Fahad@1999, emailId=fahadrs1999@gmail.com], prodcuct=id=0 name :Apple Iphone 12,     price=67999.0, status=Shipped, orderCost=135998.0, pQuantity=2]
+[main] 2021-08-20 16:00:35 INFO  org.apache.log4j.chainsaw.Main  - 
+order status changed succesfully!
+
+[main] 2021-08-20 16:00:35 INFO  org.apache.log4j.chainsaw.Main  - id      Pname        Qty   Tcost     Status
+[main] 2021-08-20 16:00:35 INFO  org.apache.log4j.chainsaw.Main  - 1)to change status of recieved order
+[main] 2021-08-20 16:00:35 INFO  org.apache.log4j.chainsaw.Main  - 2)go back to customer home page
+[main] 2021-08-20 16:00:46 INFO  org.apache.log4j.chainsaw.Main  - Going Back to Customer home page
+[main] 2021-08-20 16:00:46 INFO  org.apache.log4j.chainsaw.Main  - 
+          --Profile view-- 
+            ----------------
+
+[main] 2021-08-20 16:00:46 INFO  org.apache.log4j.chainsaw.Main  - Hello Fahad R!
+
+
+[main] 2021-08-20 16:00:46 INFO  org.apache.log4j.chainsaw.Main  - first name: Fahad R
+
+[main] 2021-08-20 16:00:46 INFO  org.apache.log4j.chainsaw.Main  - last name: S
+
+[main] 2021-08-20 16:00:46 INFO  org.apache.log4j.chainsaw.Main  - email Id: fahadrs1999@gmail.com
+
+[main] 2021-08-20 16:00:46 INFO  org.apache.log4j.chainsaw.Main  - 
+1)View all products
+[main] 2021-08-20 16:00:46 INFO  org.apache.log4j.chainsaw.Main  - 2)Add products to cart
+[main] 2021-08-20 16:00:46 INFO  org.apache.log4j.chainsaw.Main  - 3)open cart
+[main] 2021-08-20 16:00:46 INFO  org.apache.log4j.chainsaw.Main  - 4)view orders status
+[main] 2021-08-20 16:00:46 INFO  org.apache.log4j.chainsaw.Main  - 5)view profile
+[main] 2021-08-20 16:00:46 INFO  org.apache.log4j.chainsaw.Main  - 6)LOG OUT
+[main] 2021-08-20 16:00:46 INFO  org.apache.log4j.chainsaw.Main  - 7)goto ONLINE SHOPPY Home 
+[main] 2021-08-20 16:00:46 INFO  org.apache.log4j.chainsaw.Main  - 
+Please enter your choice(1-4)

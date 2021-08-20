@@ -14,7 +14,7 @@ class TestCustomerCreate {
 	@Test
 	void testCustomerCreate() throws BusinessException {
 		Customer customer=new Customer("Jaango","aji","jaango@gmail.com","Jaango@123");
-		customer.setId(5);
+		customer.setId(7);
 		CustomerCreateService customerCreateservice = new CustomerCreateServiceImpl();
 		assertEquals(customer, customerCreateservice.customerCreate(new Customer("Jaango","aji","jaango@gmail.com","Jaango@123")));
 	}
